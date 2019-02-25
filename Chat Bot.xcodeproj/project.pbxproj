@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6902C1D3222407EB009F3105 /* Answerer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902C1D2222407EB009F3105 /* Answerer.swift */; };
+		6902C1D522240830009F3105 /* Answers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6902C1D422240830009F3105 /* Answers.plist */; };
 		6930AB0921FF341900F8B1A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6930AB0821FF341900F8B1A9 /* AppDelegate.swift */; };
 		6930AB0B21FF341900F8B1A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6930AB0A21FF341900F8B1A9 /* ViewController.swift */; };
 		6930AB0E21FF341900F8B1A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6930AB0C21FF341900F8B1A9 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6902C1D2222407EB009F3105 /* Answerer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answerer.swift; sourceTree = "<group>"; };
+		6902C1D422240830009F3105 /* Answers.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Answers.plist; sourceTree = "<group>"; };
 		6930AB0521FF341900F8B1A9 /* Chat Bot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat Bot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6930AB0821FF341900F8B1A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6930AB0A21FF341900F8B1A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				6930AB0821FF341900F8B1A9 /* AppDelegate.swift */,
+				6902C1D2222407EB009F3105 /* Answerer.swift */,
 				6930AB0A21FF341900F8B1A9 /* ViewController.swift */,
 				6930AB0C21FF341900F8B1A9 /* Main.storyboard */,
 				6930AB0F21FF341E00F8B1A9 /* Assets.xcassets */,
 				6930AB1121FF341E00F8B1A9 /* LaunchScreen.storyboard */,
 				6930AB1421FF341E00F8B1A9 /* Info.plist */,
+				6902C1D422240830009F3105 /* Answers.plist */,
 			);
 			path = "Chat Bot";
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				6930AB1321FF341E00F8B1A9 /* LaunchScreen.storyboard in Resources */,
 				6930AB1021FF341E00F8B1A9 /* Assets.xcassets in Resources */,
+				6902C1D522240830009F3105 /* Answers.plist in Resources */,
 				6930AB0E21FF341900F8B1A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6902C1D3222407EB009F3105 /* Answerer.swift in Sources */,
 				6930AB0B21FF341900F8B1A9 /* ViewController.swift in Sources */,
 				6930AB0921FF341900F8B1A9 /* AppDelegate.swift in Sources */,
 			);
